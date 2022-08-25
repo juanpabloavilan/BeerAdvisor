@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">BeerAdvice</string>
+    <string name="find_beer">Encontrar cerveza!</string>
+    <string name="brands">No hay cerveza seleccionada</string>
+    <string-array name="string_array_beers">
+        <item>Aguila</item>
+        <item>Budweiser</item>
+        <item>Stella Artois</item>
+    </string-array>
+</resources>
