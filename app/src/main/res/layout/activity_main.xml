@@ -15,7 +15,7 @@
         android:layout_marginTop="40dp"
         android:layout_gravity="center"
         android:layout_margin="16dp"
-        android:entries="@array/string_array_beers"
+        android:entries="@array/string_array_colors"
         />
     <Button
         android:id="@+id/boton"
@@ -28,7 +28,7 @@
         android:id="@+id/cervezas"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:text=""
         />
 
 

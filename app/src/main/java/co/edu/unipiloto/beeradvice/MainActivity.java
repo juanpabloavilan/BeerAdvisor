@@ -17,8 +17,9 @@ public class MainActivity extends AppCompatActivity {
 
     public void handleFindBeer(View view) {
         TextView brands = (TextView) findViewById(R.id.cervezas);
-        Spinner spinnerBeers = (Spinner) findViewById(R.id.spinner);
-        String beer = String.valueOf(spinnerBeers.getSelectedItem());
+        Spinner spinnerColors = (Spinner) findViewById(R.id.spinner);
+        String beerColor = String.valueOf(spinnerColors.getSelectedItem());
+        String beer = BeerExpert.getBrands(beerColor);
         brands.setText(beer);
     }
 }
